@@ -1,0 +1,60 @@
+body {
+  padding-bottom: 70px !important;
+  font-family: 'Merriweather', serif;
+}
+
+.navbar-brand > img {
+  max-height: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+#header{
+  background-color: rgba(0, 153, 153, 0.5);
+  /*background-image: url("images/post_header.jpg");*/
+  /*opacity: 0.8;*/
+  color:white;
+  text-align: center;
+}
+
+#most_liked_text .row, #most_liked_image .row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#most_liked_text{
+  /*text-align: */
+}
+#posts .col-lg-4 .row{
+  margin-left: -5px;
+  margin-right: -5px;
+}
+#content{
+  background-color: lightgrey;
+}
+#more_Article {
+  text-align: center;
+  /*padding-left: 5%;
+  padding-right: 5%;*/
+}
+#footer_copyright{
+  text-align: center;
+}
+/*footer {
+  padding: 50px 0 65px;
+}*/
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+footer .copyright {
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 0;
+}
+.fa-stack{
+  color:black;
+}
+.fa-inverse {
+  color: white !important;
+}

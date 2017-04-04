@@ -1,0 +1,58 @@
+body {
+  padding-top: 50px !important;
+  padding-bottom: 70px !important;
+
+}
+#nav{
+  font-family: 'Merriweather', serif;
+}
+.navbar-brand > img {
+  max-height: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+#author_image{
+  /*padding:0px;*/
+}
+label{
+  padding-left: 0px !important;
+  /*padding-right: 0px !important????;*/
+}
+#comment_date{
+  text-align: right;
+}
+
+#more_Comments {
+  text-align: center;
+  /*padding-left: 5%;
+  padding-right: 5%;*/
+}
+#footer_copyright{
+  text-align: center;
+}
+/*footer {
+  padding: 50px 0 65px;
+}*/
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+footer .copyright {
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 0;
+}
+.fa-stack{
+  color:black;
+}
+.fa-inverse {
+  color: white !important;
+}
+
+@media only screen and (min-width: 768px) {
+
+  #changes{
+
+  }
+}

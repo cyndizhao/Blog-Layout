@@ -58,3 +58,17 @@ footer .copyright {
 .fa-inverse {
   color: white !important;
 }
+@media screen and (max-width: 768px){
+  #header{
+    display:none;
+  }
+  #most_liked{
+    display:none;
+  }
+  img{
+    margin-top: 20px;
+  }
+  #logo{
+    margin-top: 0px;
+  }
+}

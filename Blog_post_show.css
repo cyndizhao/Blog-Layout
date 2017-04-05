@@ -15,9 +15,13 @@ body {
 #author_image{
   /*padding:0px;*/
 }
+#author_info a{
+  font-size: 18px;
+}
 label{
   padding-left: 0px !important;
   /*padding-right: 0px !important????;*/
+  font-size: 18px;
 }
 #comment_date{
   text-align: right;
@@ -50,9 +54,23 @@ footer .copyright {
   color: white !important;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 
-  #changes{
-
+  h2{
+    font-size:20px;
+  }
+  #author_info .row div{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #changes .col-xs-8{
+    width: 100%;
+  }
+  #changes .col-xs-offset-2{
+    margin-left: 0px;
+  }
+  #changes .row .row div{
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
